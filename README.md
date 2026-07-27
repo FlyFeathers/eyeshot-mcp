@@ -65,7 +65,7 @@ Add to `~\.config\opencode\opencode.jsonc`:
 |----------|---------|-------------|
 | `VISION_API_KEY` | (required) | Vision API key |
 | `VISION_API_URL` | `https://api.openai.com/v1/chat/completions` | Any OpenAI-compatible endpoint. Example: OpenRouter `https://openrouter.ai/api/v1/chat/completions` |
-| `VISION_MODEL` | `gpt-4o` | Any VL model. Example: `qwen/qwen2.5-vl-32b-instruct` (via OpenRouter) |
+| `VISION_MODEL` | `qwen/qwen2.5-vl-32b-instruct` | Any VL model |
 | `VISION_MAX_WIDTH` | `2048` | Max image width sent to API (0 = no resize) |
 | `VISION_MAX_TOKENS` | `512` | Max tokens in API response |
 | `SCREENSHOT_BROWSER_CLASSES` | (optional) | Comma-separated extra browser window classes |
