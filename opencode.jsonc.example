@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "lsp": true,
+  "mcp": {
+    "screenshot": {
+      "type": "local",
+      "command": ["python", "C:\\Users\\xxx\\.config\\opencode\\screenshot_mcp.py"],
+      "enabled": true
+    },
+    "vision": {
+      "type": "local",
+      "command": ["python", "C:\\Users\\xxx\\.config\\opencode\\vision_mcp.py"],
+      "enabled": true
+    }
+  }
+}
