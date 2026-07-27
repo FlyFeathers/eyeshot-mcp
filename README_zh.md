@@ -64,8 +64,8 @@ pip install -r requirements.txt
 | 变量 | 默认值 | 说明 |
 |------|--------|------|
 | `VISION_API_KEY` | （必填） | 视觉模型 API Key |
-| `VISION_API_URL` | `https://api.openai.com/v1/chat/completions` | API 端点（OpenAI 兼容协议） |
-| `VISION_MODEL` | `gpt-4o` | 视觉模型名 |
+| `VISION_API_URL` | `https://api.openai.com/v1/chat/completions` | API 端点。兼容 [OpenRouter](https://openrouter.ai)（`https://openrouter.ai/api/v1/chat/completions`） |
+| `VISION_MODEL` | `gpt-4o` | 视觉模型名。任何 VL 模型均可，如 `qwen/qwen2.5-vl-32b-instruct`（通过 OpenRouter） |
 | `VISION_MAX_WIDTH` | `2048` | 发送给 API 的图片最大宽度（0=不缩放） |
 | `VISION_MAX_TOKENS` | `512` | API 返回的最大 token 数 |
 | `SCREENSHOT_BROWSER_CLASSES` | （可选） | 追加浏览器窗口类名，逗号分隔 |
